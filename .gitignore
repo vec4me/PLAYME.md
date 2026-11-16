@@ -1,1 +1,26 @@
-serve
+# Build outputs and generated benchmark snapshots
+/build/
+/measurements/
+
+# Compiler artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.pcm
+*.gch
+
+# Profiling outputs
+perf.data*
+cachegrind.out*
+callgrind.out*
+
+# Editor and OS files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

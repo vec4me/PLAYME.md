@@ -1,1 +1,0 @@
-tcc -lm -O2 -o serve serve.c
